@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.3.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.3.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.3.0">
+  <link rel="mask-icon" href="/images/logo.svg?v=7.3.0" color="#222">
+
+<link rel="stylesheet" href="/css/main.css?v=7.3.0">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '7.3.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: '复制',
+      copy_success: '复制成功',
+      copy_failure: '复制失败'
+    },
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="尽吾志也而不能至者，可以无悔矣">
+<meta name="keywords" content="老博日常">
+<meta property="og:type" content="website">
+<meta property="og:title" content="静音上网关机">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="静音上网关机">
+<meta property="og:description" content="尽吾志也而不能至者，可以无悔矣">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="静音上网关机">
+<meta name="twitter:description" content="尽吾志也而不能至者，可以无悔矣">
+  <link rel="canonical" href="http://yoursite.com/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: true,
+    isPost: false,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>静音上网关机</title>
+  <meta name="generator" content="Hexo 3.9.0">
+  
+
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?143f14112a1b51ab49f52179f8dae36d";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">静音上网关机</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">Binhong's blog</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+      
+      
+      
+        
+        <li class="menu-item menu-item-home">
+      
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-archives">
+      
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+  </ul>
+
+    
+
+</nav>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <div id="posts" class="posts-expand">
+        <article itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block home">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/28/Be-Busy/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="尽吾志也而不能至者，可以无悔矣">
+      <meta itemprop="image" content="http://i2.tiimg.com/698377/30f51d1a0f83fe68.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="静音上网关机">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+            
+            <a href="/2019/09/28/Be-Busy/" class="post-title-link" itemprop="url">Be Busy</a>
+          
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2019-09-28 15:32:56 / 修改时间：15:33:48" itemprop="dateCreated datePublished" datetime="2019-09-28T15:32:56+08:00">2019-09-28</time>
+            </span>
+          
+            
+
+            
+          
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="Be-busy-living-or-be-busy-dying"><a href="#Be-busy-living-or-be-busy-dying" class="headerlink" title="Be busy living or be busy dying"></a>Be busy living or be busy dying</h1><p>首先这篇文章是用来熟练一下Markdown的操作的，嗯，至少我是这么想的，所以花里胡哨的东西可能的都得整一遍，最后再来排个版。嘿嘿~</p>
+<h2 id="Something-needs-recording"><a href="#Something-needs-recording" class="headerlink" title="Something needs recording"></a>Something needs recording</h2><p> 这个学期来的十分匆忙和仓促，一方面是自己并没有做好准备。心里的忧虑也愈发增加，时不时就睡不着，想着自己的工作什么时候才能整出来，什么时候才是个头。不过人无远虑，必有近忧，这倒是正常。<br> 新的学期，新的开始嘛，整理一下心情，生活还是过下去的。开学一个月，也发生了不少事。流水账一下。</p>
+<h3 id="力学大会"><a href="#力学大会" class="headerlink" title="力学大会"></a>力学大会</h3><p>这次的力学大会抱着交流的目的去当的志愿者。Emmmm，交流对象一开始想着和自己同届的其他学校的小伙伴们聊聊，结果后来发现不是的。几点印象深刻，和本科班主任、毕设老师、本科同学打了招呼，发现生疏了，大家时不时来两句客套话，或许这就是科研圈开会的本质（Social）？和航院几个其他组的小伙伴倒是聊的很多，知道了有发文章飞快的，也有水水文章等找工作的，也有困难户在为毕业加油的，诸生万象，感慨颇多。再一次深刻认识到：“其实大家都不一样，也不用和其他人比较，也比不来 。科研这东西，还真的是自己找到自己解决问题的办法，是一个方法论，而不可以用文章论英雄。最后，这几天也偶遇了一个妹子，条件太优秀，却搭上了话。这让屌丝的我感觉有点不太对劲？？？说实话，还是自卑心理作祟，不多说了。</p>
+<h3 id="一次麻辣烫"><a href="#一次麻辣烫" class="headerlink" title="一次麻辣烫"></a>一次麻辣烫</h3><p>练习一下如何插入图片。图片摄于某次麻辣烫路上，新手机拍照效果不错。<br><img src="http://i2.tiimg.com/698377/a749e1b657504215.jpg" alt><br><img src="http://i2.tiimg.com/698377/e4be3d4e9cdf4d6b.jpg" alt></p>
+<h3 id="环西湖骑行"><a href="#环西湖骑行" class="headerlink" title="环西湖骑行"></a>环西湖骑行</h3><p><img src="http://i2.tiimg.com/698377/92288a661ea84811.jpg" alt></p>
+<h3 id="中秋节"><a href="#中秋节" class="headerlink" title="中秋节"></a>中秋节</h3><p>中秋节傍晚的时候才出去玩耍了，刚开始是自己一个人，后来找到了雪雅师姐几个人。<br><img src="http://i2.tiimg.com/698377/889267b72df55239.jpg" alt><br><img src="http://i2.tiimg.com/698377/2e0fcb2f29dd2204.jpg" alt><br><img src="http://i2.tiimg.com/698377/3ae6f5ad644e6638.jpg" alt><br><img src="http://i2.tiimg.com/698377/977e8b2f3c11dfd0.jpg" alt></p>
+<h3 id="西溪湿地"><a href="#西溪湿地" class="headerlink" title="西溪湿地"></a>西溪湿地</h3><p> 周四和晓程、以谋、东昊一起去了一趟西溪湿地，风景很漂亮。<br><img src="http://i2.tiimg.com/698377/0ca8c1f7aeaf0326.jpg" alt="123"><br><img src="http://i2.tiimg.com/698377/9dfdff08744f230c.jpg" alt><br><img src="http://i2.tiimg.com/698377/1a540350581504a9.jpg" alt><br><img src="http://i2.tiimg.com/698377/ad57081ec56efdbf.jpg" alt><br><img src="http://i2.tiimg.com/698377/784a869cd37e9b49.jpg" alt><br><img src="http://i2.tiimg.com/698377/61b4170bafcf9e57.jpg" alt><br><img src="http://i2.tiimg.com/698377/8dcb025df1bae0e7.jpg" alt></p>
+<hr>
+<h3 id="科研"><a href="#科研" class="headerlink" title="科研"></a>科研</h3><p>  这个月，一直在做电学测试，却是一直卡在这个连通性上。这个东西我都搞了快2个月了，什么时候是个头啊。<br>  导电水凝胶，有所进展，但是感觉也不太行。好吧，说好了，我晚上还是再去做一做实验吧，坚持就是胜利！！！</p>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p> 说实话，心里挺难受的。有天晚上，睡不着了，在CC98上扔了一个好负能量的帖子。结果第二天醒来，觉得自己的行为很傻逼。确实很傻逼，因为你并不能从别人的慰藉中得到任何力量，只能消磨时间。突然想起火炬杯之前，教练跟我们说的了，决胜时刻，更需要你做好心理建设。是的，博士也需要心理建设，一种从自己内心得到，很强大，能够改变自己的力量，并且需要我们为之奋斗。</p>
+<h3 id="To-be-continue-…"><a href="#To-be-continue-…" class="headerlink" title="To be continue …"></a>To be continue …</h3>
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+          <div class="post-eof"></div>
+        
+      </footer>
+  </div>
+  
+  
+  
+  </article>
+
+    
+  </div>
+
+  
+
+
+          </div>
+          
+
+        </div>
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image"
+      src="http://i2.tiimg.com/698377/30f51d1a0f83fe68.jpg"
+      alt="">
+  <p class="site-author-name" itemprop="name"></p>
+  <div class="site-description" itemprop="description">尽吾志也而不能至者，可以无悔矣</div>
+</div>
+  <nav class="site-state motion-element">
+      <div class="site-state-item site-state-posts">
+        
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+    
+  </nav>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="http://i1.fuimg.com/698377/50f657ca103951df.jpg" title="Wechat &rarr; http://i1.fuimg.com/698377/50f657ca103951df.jpg" rel="noopener" target="_blank"><i class="fa fa-fw fa-globe"></i>Wechat</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="/11824026@zju.edu.cn" title="E-Mail &rarr; 11824026@zju.edu.cn"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://www.zhihu.com/people/liu-bin-hong-7" title="zhihu &rarr; https://www.zhihu.com/people/liu-bin-hong-7" rel="noopener" target="_blank"><i class="fa fa-fw fa-globe"></i>zhihu</a>
+      </span>
+    
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    
+  
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder"></span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0</div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.3.0</div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+
+
+  <script src="/lib/anime.min.js?v=3.1.0"></script>
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+<script src="/js/utils.js?v=7.3.0"></script><script src="/js/motion.js?v=7.3.0"></script>
+<script src="/js/schemes/muse.js?v=7.3.0"></script>
+
+<script src="/js/next-boot.js?v=7.3.0"></script>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+</body>
+</html>
